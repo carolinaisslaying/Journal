@@ -17,10 +17,19 @@
     grid-column: main-start / main-end;
 }
 
+.gh-content * {
+    font-family: Georgia, var(--gh-font-body, var(--font-serif)), serif !important;
+}
+
+.gh-content h1, .gh-content h2, .gh-content h3, .gh-content h4, .gh-content h5, .gh-content h6 {
+    font-family: initial !important;
+}
+
 strong em u, em strong u, em u strong, strong u em {
-    background: #f5eb90;
+    background: #e2acfc;
     font-style: normal;
     font-weight: normal;
+    text-decoration: none;
 }
 
 :root {
