@@ -1,6 +1,11 @@
 @import "@tryghost/shared-theme-assets/assets/css/v1/screen.css";
 @import "fonts.css";
 
+.icon {
+    font-size: 1.75em !important;
+    padding-right: 5px !important;
+}
+
 .gh-about-title, .gh-head-logo, .gh-signup-description {
     font-family: 'Georgia' !important;
 }
