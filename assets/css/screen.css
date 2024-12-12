@@ -6,28 +6,8 @@
     padding-right: 5px !important;
 }
 
-.gh-about-title, .gh-head-logo, .gh-signup-description {
-    font-family: 'Georgia' !important;
-}
-    
-.gh-content h1, .gh-content h2, .gh-content h3, .gh-content h4, .gh-content h5 {
-    font-family: Lora, Times, sans-serif;
-}
-
-.gh-signup-description {
-    font-size: 16px;
-}
-
 .gh-article:not(.no-image) .gh-article-header>* {
     grid-column: main-start / main-end;
-}
-
-.gh-content * {
-    font-family: Georgia, var(--gh-font-body, var(--font-serif)), serif !important;
-}
-
-.gh-content h1, .gh-content h2, .gh-content h3, .gh-content h4, .gh-content h5, .gh-content h6 {
-    font-family: initial !important;
 }
 
 strong em u, em strong u, em u strong, strong u em {
