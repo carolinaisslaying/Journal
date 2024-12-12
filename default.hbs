@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/static/images/app/ios/180.png" />
     <meta name="apple-mobile-web-app-title" content="PolicyFlow" />
     <link rel="manifest" href="/static/manifest.json" />
-    <script src="https://kit.fontawesome.com/f2ab74d367.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f2ab74d367.js" crossorigin="anonymous" async></script>
 
     {{ghost_head}}
 </head>
@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
-                <button class="gh-burger"></button>
+                <button class="gh-burger" aria-label="Heading navigation button"></button>
             </div>
 
             <nav class="gh-head-menu">
@@ -103,25 +103,25 @@
                 </nav>
             {{/if}}
             <div class="gh-powered-by">
-                <a href="https://instagram.com/policyflow" target="_blank" rel="noopener">
+                <a aria-label="Instagram profile link" href="https://instagram.com/policyflow" target="_blank" rel="noopener">
                     <i class="fa-brands fa-instagram icon"></i>
                 </a>
-                <a href="https://threads.net/@policyflow" target="_blank" rel="noopener">
+                <a aria-label="Threads profile link" href="https://threads.net/@policyflow" target="_blank" rel="noopener">
                     <i class="fa-brands fa-threads icon"></i>
                 </a>
-                <a href="https://facebook.com/policyflow" target="_blank" rel="noopener">
+                <a aria-label="Facebook profile link" href="https://facebook.com/policyflow" target="_blank" rel="noopener">
                     <i class="fa-brands fa-facebook icon"></i>
                 </a>
-                <a href="https://tiktok.com/@policyflow" target="_blank" rel="noopener">
+                <a aria-label="TikTok profile link" href="https://tiktok.com/@policyflow" target="_blank" rel="noopener">
                     <i class="fa-brands fa-tiktok icon"></i>
                 </a>
-                <a href="https://bsky.app/profile/policyflow.bsky.social" target="_blank" rel="noopener">
+                <a aria-label="Bluesky profile link" href="https://bsky.app/profile/policyflow.bsky.social" target="_blank" rel="noopener">
                     <i class="fa-brands fa-bluesky icon"></i>
                 </a>
-                <a href="https://twitter.com/@policyflow_nz" target="_blank" rel="noopener">
+                <a aria-label="X (formerly Twitter) profile link" href="https://twitter.com/@policyflow_nz" target="_blank" rel="noopener">
                     <i class="fa-brands fa-x-twitter icon"></i>
                 </a>
-                <a href="mailto:enquiries@policyflow.nz" target="_blank" rel="noopener">
+                <a aria-label="Email address link" href="mailto:enquiries@policyflow.nz" target="_blank" rel="noopener">
                     <i class="fa-solid fa-envelope icon"></i>
                 </a>
             </div>
